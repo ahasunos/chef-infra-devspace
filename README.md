@@ -15,6 +15,7 @@ A standalone mode of Chef Infra used to apply cookbooks without a Chef server.
   - `cookbooks/` – Directory for cookbooks.
 
 - **Run**:
+
   ```bash
   chef-solo -c solo.rb -j node.json
   ```
@@ -26,19 +27,22 @@ A lightweight tool for applying a single recipe or small configuration in an ad-
   - `apply.rb` – A simple recipe written in Ruby.
 
 - **Run**:
+
   ```bash
   chef-apply apply.rb
   ```
 
-  - With minimal Ohai data:
-    ```bash
-    chef-apply apply.rb --minimal-ohai
-    ```
+- **With minimal Ohai data**:
+
+  ```bash
+  chef-apply apply.rb --minimal-ohai
+  ```
 
 ### 3. 🔹 chef-client (Local Mode)
 Runs Chef Infra Client in local mode to simulate a full Chef run without requiring a Chef server.
 
 - **Run**:
+
   ```bash
   chef-client -z -c client.rb -r 'recipe[example_cookbook]'
   ```
