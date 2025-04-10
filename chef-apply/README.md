@@ -17,6 +17,14 @@ If you have a file called apply.rb, you can run it with:
 chef-apply apply.rb
 ```
 
+or
+
+```
+chef-apply ./apply.rb --minimal-ohai
+```
+
+--minimal-ohai: A flag that tells Chef to load a minimal set of system data using Ohai.
+
 ### Sample Output:
 ```
 ------------------------------------------------------------
