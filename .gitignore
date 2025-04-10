@@ -11,6 +11,7 @@
 /doc/
 /rdoc/
 
+chef_guid
 ## Environment normalization:
 /.bundle/
 /vendor/bundle
