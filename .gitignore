@@ -12,6 +12,8 @@
 /rdoc/
 
 chef_guid
+chef-client-running.pid
+chef-stacktrace.out
 ## Environment normalization:
 /.bundle/
 /vendor/bundle
